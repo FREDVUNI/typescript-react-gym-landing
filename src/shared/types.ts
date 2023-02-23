@@ -6,8 +6,15 @@ export enum SelectedPage {
   }
 
 export interface BenefitType{
-      id:number,
-      title:string,
-      icon: JSX.Element,
-      description:string,
+    id:number,
+    title:string,
+    icon: JSX.Element,
+    description:string,
 }  
+
+export interface ClassType{
+    id:number,
+    name:string,
+    description?:string,
+    image:string
+}
