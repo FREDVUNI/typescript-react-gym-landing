@@ -18,3 +18,11 @@ export interface ClassType{
     description?:string,
     image:string
 }
+
+export interface testimonialType{
+    id:number,
+    name:string,
+    image:string,
+    title?:string
+    description:string,
+}

@@ -27,7 +27,7 @@ const Classes = ({setSelectedPage}: Props) => {
             >
                 <div className='md:w-3/5'>
                 <HText>OUR CLASSES</HText>
-                <p className='py-5'>
+                <p className='py-5 text-lg'>
                     We provide world class fitness equipment, trainers and classes get you to the ultimate fitness goals with ease. We Provide greatly true care into each and every member.
                     We provide world class fitness equipment, trainers and classes get you to the ultimate fitness goals with ease. We Provide greatly true care into each and every member.
                 </p>

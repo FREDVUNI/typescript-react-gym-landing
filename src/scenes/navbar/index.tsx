@@ -31,6 +31,7 @@ const Navbar = ({selectedPage,setSelectedPage,topOfPage}: Props) => {
                             <Links page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                             <Links page="Benefits" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                             <Links page="Our Classes" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+                            <Links page="Testimonials" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                             <Links page="Contact Us" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                         </div>
                         <div className={`${flexBewteen} gap-8`}>
@@ -65,6 +66,7 @@ const Navbar = ({selectedPage,setSelectedPage,topOfPage}: Props) => {
                     <Links page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                     <Links page="Benefits" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                     <Links page="Our Classes" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+                    <Links page="Testimonials" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                     <Links page="Contact Us" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                 </div>
             </div>
