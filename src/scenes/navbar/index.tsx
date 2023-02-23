@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {Children, useState} from 'react'
 import { Bars3Icon,XMarkIcon } from '@heroicons/react/24/solid'
 import Logo from '@/assets/Logo.png'
 import Links from './Links'
@@ -16,10 +16,10 @@ const Navbar = ({selectedPage,setSelectedPage,topOfPage}: Props) => {
     const flexBewteen = "flex items-center justify-between"
     const [toggled,setToggled] = useState<boolean>(false)
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
-    const scrollNavBackground = topOfPage ? "" : "bg-primary-100 drop-shadow"
+    const scrollNavBackground = topOfPage ? "" : "bg-white drop-shadow"
   return (
     <nav>
-        <div className={`${scrollNavBackground} ${flexBewteen} fixed top-0 z-30 w-full py-9`}>
+        <div className={`${scrollNavBackground} ${flexBewteen} fixed top-0 z-30 w-full py-7`}>
             <div className={`${flexBewteen} mx-auto w-5/6`}>
                 <div className={`${flexBewteen} w-full gap-16`}>
                     <img src={Logo} alt="logo" />
@@ -33,9 +33,11 @@ const Navbar = ({selectedPage,setSelectedPage,topOfPage}: Props) => {
                             <Links page="Our Classes" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                             <Links page="Contact Us" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
                         </div>
-                        <div className='flex gap-8'>
+                        <div className={`${flexBewteen} gap-8`}>
                             <p>Sign In</p>
-                            <ActionButton setSelectedPage={setSelectedPage}>Become a Member</ActionButton>
+                            <ActionButton setSelectedPage={setSelectedPage}>
+                                Become a Member
+                            </ActionButton>
                         </div>
                     </div>
                     ):(
