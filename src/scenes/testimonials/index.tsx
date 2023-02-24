@@ -24,7 +24,7 @@ const Testimonials = ({setSelectedPage}: Props) => {
                     hidden:{opacity: 0, x: -50},
                     visible:{opacity: 1, x: 0},
                 }}
-                className='md:my-5 md:w-3/5'>
+                className='md:my-5 md:w-4/5'>
                 <HText>TESTIMONIALS</HText>
                 <p className='my-5 text-lg'>
                     We provide world class fitness equipment, trainers and classes get you to the ultimate fitness goals with ease. We Provide greatly true care into each and every member.
