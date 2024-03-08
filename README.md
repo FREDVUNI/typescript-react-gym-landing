@@ -1,6 +1,16 @@
-# Typescript Gym
+# TypeScript React Gym Application
 
-A TypeScript React gym application with a frontend UI using Vite. This project is based on the [Ed Roh TypeScript tutorial on YouTube](https://www.youtube.com/watch?v=I2NNxr3WPDo&t=761s&pp=ygURZWQgcm9oIHR5cGVzY3JpcHQ%3D).
+typescript-react-gym is a responsive TypeScript-based React application designed for managing gym-related activities. This project includes a functional contact us page/section to facilitate communication with users. Built with modern web development practices, it offers a seamless user experience across various devices and screen sizes.
+
+This project is based on the [Ed Roh TypeScript tutorial on YouTube](https://www.youtube.com/watch?v=I2NNxr3WPDo&t=761s&pp=ygURZWQgcm9oIHR5cGVzY3JpcHQ%3D).
+
+## Features
+
+- **Responsive Design:** Built with responsiveness in mind, ensuring a consistent experience across devices.
+- **TypeScript:** Utilizes TypeScript for static typing and improved developer productivity.
+- **React Components:** Modular components for easy maintenance and scalability.
+- **Contact Us Page/Section:** Includes a functional contact us page/section to facilitate user communication.
+- **Modern UI:** Stylish and modern UI design for an engaging user experience.
 
 ## Installation
 To get started with the project, first make sure you have installed the latest version of Vite. Then, clone the repository and run `npm install` to install the necessary dependencies.
