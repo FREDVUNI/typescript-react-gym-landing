@@ -48,8 +48,8 @@ const Footer = ({setSelectedPage}: Props) => {
                 </p>
                 <p className="my-3">
                     <AnchorLink
-                        onClick={() => setSelectedPage(SelectedPage.Tsetimonials)}
-                        href={`#${SelectedPage.Tsetimonials}`}
+                        onClick={() => setSelectedPage(SelectedPage.Testimonials)}
+                        href={`#${SelectedPage.Testimonials}`}
                     >
                         Testimonials
                     </AnchorLink>
